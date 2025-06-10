@@ -37,15 +37,7 @@ public class LoginPage {
 	public void clickLogin() {
 		driver.findElement(loginButton).click();	
 	}
-	
-//	public void loginStatus() {
-//		driver.findElement(By.className("message-error"));;
-//		driver.findElement(loginError);
-//		WebElement errorMessage = driver.findElement(loginError);
-//		String errorText = errorMessage.getText();
-//		System.out.println("Login Error: " + errorText);			
-//	}
-	
+		
 	// Method to return login error message
     public String loginStatus() {
         WebElement errorMessage = driver.findElement(loginError);
