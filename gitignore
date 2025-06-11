@@ -47,7 +47,6 @@ target/
 bin/
 build/
 .settings/
-logs/
 
 *.launch
 .apt_generated/
