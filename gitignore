@@ -49,6 +49,7 @@ build/
 .settings/
 reports/
 logs/
+screenshots/
 
 *.launch
 .apt_generated/
