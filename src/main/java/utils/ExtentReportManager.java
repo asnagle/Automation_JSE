@@ -16,13 +16,14 @@ public class ExtentReportManager {
 	
 	private static ExtentReports extent;
 	private static ExtentTest test;
+	public static String reportPath;
 	
 	public static ExtentReports getReportInstance() {
 		
 		if(extent == null) {
 			
 			String timestamp = new SimpleDateFormat("yy-MM-dd_HH-mm-ss").format(new Date());
-			String reportPath = "reports/ExtentReport_"+timestamp+".html";
+			reportPath = "reports/ExtentReport_"+timestamp+".html";
 			ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
 			
 			reporter.config().setDocumentTitle("Test nopcommerce.com site");

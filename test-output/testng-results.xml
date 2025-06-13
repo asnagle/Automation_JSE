@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-12T18:23:33 IST" name="LoginSuite" finished-at="2025-06-12T18:24:01 IST" duration-ms="27772">
+  <suite started-at="2025-06-13T09:38:37 IST" name="LoginSuite" finished-at="2025-06-13T09:39:09 IST" duration-ms="31621">
     <groups>
     </groups>
-    <test started-at="2025-06-12T18:23:33 IST" name="LoginTests" finished-at="2025-06-12T18:24:01 IST" duration-ms="27772">
+    <test started-at="2025-06-13T09:38:37 IST" name="LoginTests" finished-at="2025-06-13T09:39:09 IST" duration-ms="31621">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:32 IST" name="setupReport" finished-at="2025-06-12T18:23:33 IST" duration-ms="764" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:37 IST" name="setupReport" finished-at="2025-06-13T09:38:37 IST" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:34 IST" name="setUp" finished-at="2025-06-12T18:23:39 IST" duration-ms="4842" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:39 IST" name="setUp" finished-at="2025-06-13T09:38:45 IST" duration-ms="5798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:39 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-12T18:23:40 IST" duration-ms="1238" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:45 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-13T09:38:47 IST" duration-ms="1669" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:40 IST" name="tearDown" finished-at="2025-06-12T18:23:41 IST" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:47 IST" name="tearDown" finished-at="2025-06-13T09:38:47 IST" duration-ms="349" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,11 +42,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:41 IST" name="setUp" finished-at="2025-06-12T18:23:43 IST" duration-ms="2491" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:47 IST" name="setUp" finished-at="2025-06-13T09:38:50 IST" duration-ms="2772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:43 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-12T18:23:44 IST" duration-ms="1063" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:50 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-13T09:38:51 IST" duration-ms="1251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:44 IST" name="tearDown" finished-at="2025-06-12T18:23:44 IST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:51 IST" name="tearDown" finished-at="2025-06-13T09:38:51 IST" duration-ms="209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,11 +73,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:44 IST" name="setUp" finished-at="2025-06-12T18:23:47 IST" duration-ms="2344" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:51 IST" name="setUp" finished-at="2025-06-13T09:38:54 IST" duration-ms="2734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:47 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-12T18:23:48 IST" duration-ms="1513" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:54 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-13T09:38:55 IST" duration-ms="1349" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:48 IST" name="tearDown" finished-at="2025-06-12T18:23:48 IST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:55 IST" name="tearDown" finished-at="2025-06-13T09:38:55 IST" duration-ms="219" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,11 +104,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:48 IST" name="setUp" finished-at="2025-06-12T18:23:51 IST" duration-ms="2343" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:55 IST" name="setUp" finished-at="2025-06-13T09:38:58 IST" duration-ms="2821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:51 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-12T18:23:52 IST" duration-ms="1472" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:58 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-13T09:38:59 IST" duration-ms="1225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,7 +124,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:52 IST" name="tearDown" finished-at="2025-06-12T18:23:52 IST" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:38:59 IST" name="tearDown" finished-at="2025-06-13T09:39:00 IST" duration-ms="240" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,11 +135,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:52 IST" name="setUp" finished-at="2025-06-12T18:23:55 IST" duration-ms="2378" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:39:00 IST" name="setUp" finished-at="2025-06-13T09:39:03 IST" duration-ms="2864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:55 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-12T18:23:56 IST" duration-ms="1766" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:1, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:39:03 IST" name="validLogin" data-provider="LoginData" finished-at="2025-06-13T09:39:04 IST" duration-ms="1264" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,7 +155,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:56 IST" name="tearDown" finished-at="2025-06-12T18:23:57 IST" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:39:04 IST" name="tearDown" finished-at="2025-06-13T09:39:04 IST" duration-ms="225" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,26 +166,96 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:57 IST" name="setUp" finished-at="2025-06-12T18:23:59 IST" duration-ms="2299" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:39:04 IST" name="setUp" finished-at="2025-06-13T09:39:07 IST" duration-ms="3182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin()[pri:2, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:23:59 IST" name="invalidLogin" finished-at="2025-06-12T18:24:00 IST" duration-ms="1482" status="PASS">
+        <test-method signature="invalidLogin()[pri:2, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:39:07 IST" name="invalidLogin" finished-at="2025-06-13T09:39:08 IST" duration-ms="1210" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[6]/div/div/div/div/div[2]/div[1]/div/form/div[1]"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88eb4eb38fdb0849d8f1cce111c8cd34, findElement {value=/html/body/div[6]/div/div/div/div/div[2]/div[1]/div/form/div[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50978/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88eb4eb38fdb0849d8f1cce111c8cd34]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[6]/div/div/div/div/div[2]/div[1]/div/form/div[1]"}
+  (Session info: chrome=137.0.7151.104)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88eb4eb38fdb0849d8f1cce111c8cd34, findElement {value=/html/body/div[6]/div/div/div/div/div[2]/div[1]/div/form/div[1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.104, chrome: {chromedriverVersion: 137.0.7151.70 (dfa4dc56b2ab..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50978}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50978/devtoo..., se:cdpVersion: 137.0.7151.104, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88eb4eb38fdb0849d8f1cce111c8cd34
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source)
+at pages.LoginPage.loginStatus(LoginPage.java:67)
+at tests.LoginTest.invalidLogin(LoginTest.java:126)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:24:00 IST" name="tearDown" finished-at="2025-06-12T18:24:01 IST" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:39:08 IST" name="tearDown" finished-at="2025-06-13T09:39:09 IST" duration-ms="566" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginTest.invalidLogin()[pri:2, instance:tests.LoginTest@9597028] output={null}]]]>
+                <![CDATA[[TestResult name=invalidLogin status=FAILURE method=LoginTest.invalidLogin()[pri:2, instance:tests.LoginTest@9597028] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-12T18:24:01 IST" name="teardownReport" finished-at="2025-06-12T18:24:01 IST" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="teardownReport()[pri:0, instance:tests.LoginTest@9597028]" started-at="2025-06-13T09:39:09 IST" name="teardownReport" finished-at="2025-06-13T09:39:15 IST" duration-ms="6153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownReport -->

@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
-
+import utils.EmailUtils;
 import utils.ExtentReportManager;
 import utils.log;
 
@@ -31,6 +31,8 @@ public class BaseTest {
 	public void teardownReport() {
 		
 		extent.flush();
+		String reportPath = ExtentReportManager.reportPath;
+		EmailUtils.sendTestReport(reportPath);
 	}
 	
 	@BeforeMethod

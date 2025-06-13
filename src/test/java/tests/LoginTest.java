@@ -3,7 +3,7 @@ package tests;
 import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
+//import org.testng.annotations.Parameters; //Needed if we want to pass parameters from testng.xml
 import org.testng.annotations.Test;
 import base.BaseTest;
 import pages.LoginPage;
@@ -71,7 +71,7 @@ public class LoginTest extends BaseTest {
 
 //	========================= Following Code takes input from excel file for getting username & password =======
 
-	 @Test(priority = 1, dataProvider = "LoginData") //Uncomment to use data from
+	@Test(priority = 1, dataProvider = "LoginData") // Uncomment to use data from
 	// data provider LoginData
 //	@Test(priority = 1, dataProvider = "LoginData2") //Comment this if you don't want data from data provider LoginData2 and uncomment LoginData statement
 
