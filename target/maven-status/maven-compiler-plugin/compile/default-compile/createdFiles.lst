@@ -1,3 +1,9 @@
 base\BaseTest.class
+utils\ExcelUtils.class
+mailsetup\EmailSender$1.class
+mailsetup\EmailSender.class
 pages\LoginPage.class
+utils\EmailUtils$1.class
+utils\EmailUtils.class
+utils\ExtentReportManager.class
 utils\log.class
